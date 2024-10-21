@@ -14,7 +14,7 @@ Para poder demostrar y aprender la creación y consumo de Interfaces de Programa
 
 ## Autor 
 
- **Angel de Jesus Rufino Mendoza** /[@RufinoAngel](https://github.com/RufinoAnge)
+ **Angel de Jesus Rufino Mendoza** / [@RufinoAngel](https://github.com/RufinoAngel)
 Unidad 2
 Aplicaciones Web Orientadas a Servicios
 Octubre 2024
