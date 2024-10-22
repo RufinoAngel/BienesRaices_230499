@@ -10,11 +10,12 @@ Para poder demostrar y aprender la creación y consumo de Interfaces de Programa
 |NO.|Fecha|Descripción|Potenciador|Estatus|
 |--|--|--|--|--|
 |8.|17/10/2024|Nuevo Repositorio de Proyecto implementando .gitignore|1|✨Activa|
+|9.|22/10/2024|Creación de una Aplicación web usando Express|11|✨Activa|
 
 
 ## Autor 
 
- **Angel de Jesus Rufino Mendoza** /[@RufinoAngel](https://github.com/RufinoAnge)
+ **Angel de Jesus Rufino Mendoza** /[@RufinoAngel](https://github.com/RufinoAngel)
 Unidad 2
 Aplicaciones Web Orientadas a Servicios
 Octubre 2024
