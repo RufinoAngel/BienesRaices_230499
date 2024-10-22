@@ -2,8 +2,9 @@
 // CommonJS
 import express from 'express';
 //const express= require('express'); //Importar la librería para crear un servidor web
-
+import generalRoutes from './routers/generalRouters.js'
 // instanciar nuestra aplicacion web
+import userRoutes from './routers/userRoutes.js'
 const app=express();
 
 //configuramos nuestro servidor web
@@ -12,16 +13,6 @@ app.listen(port, ()=>{
     console.log(`La aplicacion ha iniciado en el puerto ${port} `);
 })
 
-app.get('/',function(req,res){
-    res.send("Hola Mundo desde Node, a través del Navegador")
-})
-//Routing- enrutamiento .
-//Probamos las rutas para poder presentar mensajes al
-app.get('/QuienSoy',function(req,res){
-    res.json({"estudiante":"Angel de Jesus Rufino Mendoza",
-        "carrera":"TI DSM",
-        "grado":"4°",
-        "grupo":"B",
-        "asignatura":"Aplicaciones Web Orientada a Servicios (AWOS)"
-    })
-})
+app.use('/',generalRoutes );
+
+app.use('/usuario',userRoutes);
